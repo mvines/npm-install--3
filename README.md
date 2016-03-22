@@ -9,6 +9,7 @@ $ git clone https://github.com/mvines/npm-package-cache.git
 $ npm-proxy-cache -f -s npm-package-cache --ttl 307584000 --expired --port 4242
 $ npm config set https-proxy http://localhost:4242/
 $ npm config set proxy http://localhost:4242/
+$ npm config set strict-ssl false
 $ export DISABLE_NODE_MODULES_CACHE=1
 ```
 
